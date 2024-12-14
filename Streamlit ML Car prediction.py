@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load the data from the Excel file
-data = pd.read_excel(r'C:\Users\avr81\Documents\Guvi\Cardheko project 3\Extracted data\combined_excel.xlsx')
+data = pd.read_excel(r'C:\Users\10732370\OneDrive - LTIMindtree\Documents\guvi\Project 3 Cardheko\all_cars_testing.xlsx')
 
 # Define the features (X) and the target variable (y)
 X = data.drop(columns=['price_in_lakh'])
